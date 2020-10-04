@@ -20,6 +20,7 @@ We'll store the convention data in a single DB table with the following columns:
    on that night) up to the final utterance by the speaker. 
 1. time
 1. text
+1. file: the file where we're storing the raw data.
 
 If you haven't taken ADA, I'd urge you to look at the solutions for some of the DB code after you've
 spent a bit of time Googling. Some of the statements, particularly inserting data into the DB, are 
