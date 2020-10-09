@@ -20,9 +20,16 @@ We'll store the convention data in a single DB table with the following columns:
    on that night) up to the final utterance by the speaker. 
 1. time
 1. text
+1. text_len: the number of words in `text`
 1. file: the file where we're storing the raw data.
 
 If you haven't taken ADA, I'd urge you to look at the solutions for some of the DB code after you've
 spent a bit of time Googling. Some of the statements, particularly inserting data into the DB, are 
 not intuitive. 
+
+This exercise took me about 5 hours to code with a solution that I consider 
+99% accurate. It's not easy! I'd encourage a liberal usage of the solutions. 
+Think about the questions I'm asking you in the code. Try to figure them out
+for 10-15 minutes. If you're not having fun, just look at the solutions and
+move on. 
 
